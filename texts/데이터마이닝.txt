@@ -1,0 +1,64 @@
+# 데이터마이닝 강의계획서 요약 (파일명: 데이터마이닝.pdf)
+
+## 강의 정보
+
+*   **강의명:** 데이터마이닝
+*   **교과목번호:** HEG01402
+*   **강좌번호:** 6076
+*   **학점/시간:** 3/3
+*   **대상학년:** 4학년
+*   **개설학과:** 융합소프트웨어학부
+*   **강의시간:** 월 13:30~14:45 (S1350), 수 13:30~14:45 (S1350)
+*   **교수:** 홍대영
+*   **연구실:**
+*   **E-Mail:** dyhong@mju.ac.kr
+*   **상담시간:** 메일로 약속 잡고 진행
+
+## 교과목 개요
+
+데이터마이닝은 정형화 또는 비정형화 데이터로부터 지식과 통찰을 추출하거나 예측하는 학문 분야입니다. 본 강좌에서는 데이터마이닝을 위한 데이터 분석 방법, 기계 학습과 지식 추출 방법 등 데이터에 적용할 수 있는 실질적 방법을 학습합니다.
+
+*   **선수과목 및 지식:** 파이썬 프로그래밍, 선형대수학, 인공지능수학
+*   **교과목 교육목표:** 데이터 관리 및 시각화, Regression Analysis, K-Nearest Neighbors, Naive Bayes, Decision Tree, Cluster Analysis, Recommendation System 등의 데이터마이닝 기법들을 이해하고 활용 방법에 대해 학습하는 것을 목표로 합니다.
+*   **교과목 교육목표 성취도 평가방법:** 중간시험(40%), 기말시험(40%), 과제(10%)
+*   **신 교육기법 활용:** PBL (Problem Based Learning), 디자인씽킹
+
+## 평가 방법
+
+*   **과제물/보고서:** 10%
+*   **출석:** 10%
+*   **수시시험/중간고사 (Quiz 포함):** 40%
+*   **학기말고사:** 40%
+*   **발표:** 0%
+*   **기타:** 0%
+
+## 교재 정보
+
+*   **주교재:** 강의 슬라이드
+*   **부교재:**
+    *   **도서명:** Data Mining: Concepts and Techniques
+    *   **저자명:** Jiawei Han, Micheline Kamber and Jian Pei
+    *   **출판사명:** Morgan Kaufmann
+*   **참고도서:** (정보 없음)
+
+## 주별 계획
+
+*   **1주차:** Introduction to Data Mining
+*   **2주차:** Data Management
+*   **3주차:** Data Visualization
+*   **4주차:** Data and Probabilities
+*   **5주차:** Linear Algebra for Data Mining
+*   **6주차:** Classification Models 1
+*   **7주차:** Classification Models 2
+*   **8주차:** 중간시험
+*   **9주차:** Regression Analysis
+*   **10주차:** Cluster Analysis 1
+*   **11주차:** Cluster Analysis 2
+*   **12주차:** Deep Learning
+*   **13주차:** Recommendation Systems
+*   **14주차:** Issues in Data Mining
+*   **15주차:** 기말시험
+
+## 강의평
+
+*   수업 중에 학생들에게 질문하시면서 이해하고 있는지 봐주시는거 너무 좋은데 강의시간이 재미없어요…

@@ -1,0 +1,74 @@
+# 머신러닝.pdf
+
+## 강의 정보
+
+*   **강의명:** 머신러닝
+*   **교과목번호:** HEG01304
+*   **강좌번호:** 6073
+*   **학점/시간:** 3/3
+*   **대상학년:** 3학년
+*   **개설학과:** 융합소프트웨어학부
+*   **강의시간:** 월 12:00~13:15 (S1353), 수 12:00~13:15 (S1353)
+*   **담당교수:** 오민식
+*   **연구실(전화):** 본관 S1820
+*   **E-Mail:** msoh@mju.ac.kr
+
+## 교과목 개요
+
+머신러닝의 개념에 대해 학습합니다. 지도학습, 비지도학습, 모델의 성능평가, 튜닝 등에 대한 기초 내용 및 심화 내용을 학습합니다. python을 활용하여 실제 데이터에 적용하여 이론을 실습에 적용합니다.
+
+*   **선수과목 및 지식:** 선형대수학, 통계, 파이썬 프로그래밍, 자료구조, 알고리즘
+
+## 교육 목표
+
+Linear / RandomForest / KNN / SVM / Gradient Boosting / K-mean clustering / PCA / Q-Learning 등의 다양한 기초 머신러닝 이론에 대해 알고 실제 문제에 적용하는 능력 배양
+
+## 평가 방법
+
+*   중간고사(30%)
+*   기말고사(30%)
+*   과제(30%)
+*   출석(10%)
+
+## 성적 평가 방법
+
+*   과제물/보고서: 30%
+*   출석: 10%
+*   수시시험/중간고사 (Quiz 포함): 30%
+*   학기말고사: 30%
+
+## 교재 및 참고도서
+
+*   **주교재:** 강의 슬라이드
+*   **부교재:**
+    *   도서명: Data Mining: Concepts and Techniques
+    *   저자명: J. Han M. Kimber
+    *   출판사명: Morgan Kaufmann Publishers
+*   **참고도서:**
+    *   도서명: Pattern Recognition and Machine Learning
+    *   저자명: Christopher M. Bishop
+    *   출판사명: Springer
+
+## 주별 계획
+
+*   **1주차:** Machine Learning Introduction
+*   **2주차:** Data Preprocessing / Representation
+*   **3주차:** Data Preprocessing / Representation
+*   **4주차:** Linear Classification / Regression
+*   **5주차:** K Nearest Neighbor / Decision Tree
+*   **6주차:** Ensemble Methods
+*   **7주차:** Model Selection / Regularization
+*   **8주차:** 중간고사
+*   **9주차:** Support Vector Machine
+*   **10주차:** Naive Bayes
+*   **11주차:** K means Clustering
+*   **12주차:** Hierarchical Clustering
+*   **13주차:** Dimensionality Reduction
+*   **14주차:** Reinforcement Learning
+*   **15주차:** 기말고사
+
+## 강의평
+
+25년 1학기 수강자: 수업이 이해하기 좀 어렵지만 개념만 잘 이해하고 있다면 성적 잘 받을 수 있습니다
+25년 1학기 수강자: 공부많이해야함. 양이나 난이도나 높은편이라고 생각합니다
+25년 1학기 수강자: 학생들마다 교수님 호불호가 존재할 거 같은 수업이긴하나 교수님이 열정적으로 가르쳐주심

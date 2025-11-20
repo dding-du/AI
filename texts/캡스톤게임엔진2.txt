@@ -1,0 +1,86 @@
+# 캡스톤게임엔진2 강의계획서
+
+## 강의 정보
+
+*   **강의명:** 캡스톤게임엔진2
+*   **교과목번호:** HEA01427
+*   **강좌번호:** 6030
+*   **학점/시간:** 3/3
+*   **대상학년:** 4학년
+*   **개설학과:** 디지털콘텐츠디자인학과
+*   **강의시간:** 월 10:30~13:15 (S1346)
+*   **담당교수:** 김영웅
+*   **연구실(전화):**
+*   **E-Mail:** hero.kim@mju.ac.kr
+*   **집중수업:** 해당없음
+
+## 교과목 개요
+
+실제 산업현장에서 사용되는 개발 프로세스를 적용하여 실제 개발 프로세스를 배우고 상용화 과정을 통해 QA, 개발일정 관리, 개발 방법 및 API, SDK 선택 및 개발에 관한 전반적인 경험을 쌓고 상용화로 이어지는 경험을 얻을 수 있도록 한다.
+
+*   **선수과목 및 지식:** 디지털콘텐츠 기획, 디지털콘텐츠 디자인, 모바일앱프로그래밍, 모바일 게임엔진1
+*   **교과목 교육목표:** 졸업프로젝트 완료를 위해 적정 기술 선택, 중요도 산출, 기능 테스트 및 위험요소 제거 및 변경에 대한 가이드를 제공, 졸업프로젝트가 런칭될 수 있도록 한다.
+*   **교과목 교육목표 성취도 평가방법:**
+    *   평가도구: 출석과제, 중간고사 대체과제, 기말고사 대체과제
+    *   평가방법: 졸업프로젝트 개발상황, 프로젝트 개발 중 API 선택 등 문제 해결 방안, 졸업프로젝트 완료 및 런칭
+    *   성취목표: 60점(100점 만점) 이상을 취득한 학생의 비율이 전체 수강생의 70% 이상
+*   **신 교육기법 활용:** PBL (Problem Based Learning)
+
+## 성적평가방법
+
+*   **출석:** 20 %
+*   **수시시험/중간고사 (Quiz 포함):** 35 %
+*   **학기말고사:** 40 %
+*   **기타:** 5 %
+
+## 주차별 계획
+
+*   **1주차:**
+    *   주제 및 수업핵심내용 : Orintation, Schedule Check, Detailed Development Plan Check
+    *   학습자료 및 과제 :
+*   **2주차:**
+    *   주제 및 수업핵심내용 : Global Development Process(GDP), Identify Technical Challenges.
+    *   학습자료 및 과제 :
+*   **3주차:**
+    *   주제 및 수업핵심내용 : Feature Specific Requiements, Implementation Plan, Derisk Key Technology Choices
+    *   학습자료 및 과제 :
+*   **4주차:**
+    *   주제 및 수업핵심내용 : Development Feedback and Inspection
+    *   학습자료 및 과제 :
+*   **5주차:**
+    *   주제 및 수업핵심내용 : Vertical Slice
+    *   학습자료 및 과제 :
+*   **6주차:**
+    *   주제 및 수업핵심내용 : Confirmation of the Entire Development Task Flow, Create QA List
+    *   학습자료 및 과제 :
+*   **7주차:**
+    *   주제 및 수업핵심내용 : Check Development Progress and Feedback 1 - Main Feature
+    *   학습자료 및 과제 :
+*   **8주차:**
+    *   주제 및 수업핵심내용 : Check Development Progress and Feedback 2 - UX/UI
+    *   학습자료 및 과제 :
+*   **9주차:**
+    *   주제 및 수업핵심내용 : 중간고사 - First Drop
+    *   학습자료 및 과제 : 중간고사 대체과제 (중간 산출물)
+*   **10주차:**
+    *   주제 및 수업핵심내용 : Check Development Progress and Feedback 3 - Sub Feature, QA List Update
+    *   학습자료 및 과제 :
+*   **11주차:**
+    *   주제 및 수업핵심내용 : 2nd Build Test
+    *   학습자료 및 과제 :
+*   **12주차:**
+    *   주제 및 수업핵심내용 : Check Development Progress and Feedback 4 - Open Version Feature
+    *   학습자료 및 과제 :
+*   **13주차:**
+    *   주제 및 수업핵심내용 : 3rd Build Test, QA Result
+    *   학습자료 및 과제 :
+*   **14주차:**
+    *   주제 및 수업핵심내용 : Open Version Final Test
+    *   학습자료 및 과제 :
+*   **15주차:**
+    *   주제 및 수업핵심내용 : Final PT (Live Version)
+    *   학습자료 및 과제 : 기말과제 대체과제 (마켓 런칭)
+
+## 강의평
+
+등록된 강의평 없음

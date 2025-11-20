@@ -1,0 +1,96 @@
+# 소셜인텔리젼스 강의계획서
+
+## 강의 정보
+
+*   **강의명:** 소셜인텔리젼스
+*   **교과목번호:** HEH01406
+*   **강좌번호:** 6080
+*   **교수:** 정재희
+*   **학년:** 4학년
+*   **개설학과:** 융합소프트웨어학부 데이터사이언스전공
+*   **강의시간:** 수 15:00~17:45 (S1350)
+*   **학점/시간:** 3/3
+*   **E-Mail:** jhjung@mju.ac.kr
+
+## 교과목 개요
+
+본 교과에서는 소셜 인텔리전스의 맥락에서 데이터 분석을 활용하는 개념, 도구 및 기법을 소개합니다. 공공 데이터 및 소셜 데이터를 수집, 분석, 해석하여 트렌드 예측, 텍스트 분석, 예측 모델을 수행하여 데이터로부터 해석이 가능한 인사이트를 도출하는 방법을 학습합니다. 실 사례 데이터를 활용한 연구로 실습하며 프로젝트를 통하여 실무 경험을 쌓을 수 있습니다.
+
+*   **선수과목 및 지식:** Python 기본 문법
+
+## 교과목 교육목표
+
+*   소셜 데이터를 수집하고 전처리하는 방법을 학습
+*   소셜 인텔리전스에서 데이터 분석의 역할을 이해
+*   기계 학습, 딥러닝 기법을 적용하여 소셜 행동을 분석
+*   분석 데이터의 효과적인 전달을 위하여 데이터 시각화 기술을 학습
+
+## 성적평가방법
+
+*   과제물/보고서: 25%
+*   출석: 5%
+*   학기말고사: 40%
+*   발표: 30%
+
+## 교재 및 참고도서
+
+*   **주교재:**
+    *   도서명: Python Data Science Handbook: Essential Tools for Working with Data
+    *   저자: 제이크 밴더플래스, 김정인 (번역)
+    *   출판사: 위키북스
+*   **부교재:**
+    *   도서명: 파이썬 라이브러리를 활용한 데이터 분석
+    *   저자: 웨스 맥키니
+    *   출판사: 한빛미디어
+
+## 주별 계획
+
+*   **1주차:**
+    *   주제: Introduction of sociall intelligence
+    *   학습자료 및 과제:
+*   **2주차:**
+    *   주제: Numpy basics : data types, array creation, indexing, broadcasting,structured arrays
+    *   학습자료 및 과제:
+*   **3주차:**
+    *   주제: Pandas series and Dataframe : Shaping, Time-seines-related , Reindexing, Reshaping, Plotting
+    *   학습자료 및 과제:
+*   **4주차:**
+    *   주제: Basics of Data Collection and Preprocessing : Crawling and Scrapping
+    *   학습자료 및 과제: 프로젝트 주제 선정
+*   **5주차:**
+    *   주제: Exploratory Data Analysis (EDA) - Matplotlib: Lines, Bar, Maskers,subplot, figures, axes
+    *   학습자료 및 과제:
+*   **6주차:**
+    *   주제: Exploratory Data Analysis (EDA) - Seaborn: : Lines, Bar, Maskers,subplot, figures, axes
+    *   학습자료 및 과제:
+*   **7주차:**
+    *   주제: Exploratory Data Analysis (EDA) - Ploty : 2D 3D chart, Lines, Bar, bar, pie
+    *   학습자료 및 과제:
+*   **8주차:**
+    *   주제: Exploratory Data Analysis (EDA) - geoPandas Mapping Geo Data
+    *   학습자료 및 과제:
+*   **9주차:**
+    *   주제: Machine Learning for Social Intelligence : supervised classification (scikit-learn)
+    *   학습자료 및 과제:
+*   **10주차:**
+    *   주제: Machine Learning for Social Intelligence : unsupervised classification (scikit-learn)
+    *   학습자료 및 과제:
+*   **11주차:**
+    *   주제: Sentiment Analysis and Natural Language Processing (NLP) : Text preprocessing techniques
+    *   학습자료 및 과제:
+*   **12주차:**
+    *   주제: Sentiment Analysis and Natural Language Processing (NLP) : Sentiment analysis
+    *   학습자료 및 과제:
+*   **13주차:**
+    *   주제: Word Cloud , Geo Pandas
+    *   학습자료 및 과제:
+*   **14주차:**
+    *   주제: 프로젝트 발표
+    *   학습자료 및 과제:
+*   **15주차:**
+    *   주제: 기말고사
+    *   학습자료 및 과제:
+
+## 강의평
+
+등록된 강의평 없음

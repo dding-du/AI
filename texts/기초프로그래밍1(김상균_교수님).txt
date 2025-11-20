@@ -1,0 +1,65 @@
+# 기초프로그래밍1(김상균 교수님) 강의계획서
+
+## 강의 정보
+
+*   **강의명:** 기초프로그래밍1
+*   **교수님:** 김상균
+*   **학년:** 1학년
+*   **개설학과:** 인공지능·소프트웨어융합대학
+*   **강의시간:** 화 10:30~11:45 (S1353), 목 10:30~11:45 (S1353)
+*   **상담시간:** 화요일 (1:30~2:30)
+*   **교수님 연락처:**
+    *   연구실(전화): 02-300-0637
+    *   E-Mail: goldmunt@gmail.com
+
+## 교과목 개요
+
+컴퓨터 프로그래밍 기초 원리 및 개념 숙지, Python을 활용한 프로그래밍 실습을 통한 실무 기반 마련, 데이터 및 프로그래밍 로직에 대한 이해와 실습
+
+## 교과목 교육목표
+
+기초 프로그래밍 개념 및 실습
+
+## 성적평가방법
+
+*   과제물/보고서: 40 %
+*   출석: 10 %
+*   수시시험/중간고사 (Quiz 포함): 20 %
+*   학기말고사: 30 %
+*   발표: 0 %
+*   기타: 0 %
+
+## 교재
+
+*   **주교재:**
+    *   도서명: Introduction to Computation and Programming Using Python,
+    *   저자명: John V. Guttag
+    *   출판사명: The MIT Press
+    *   ISBN: (기재되어 있지 않음)
+    *   출판년도: 2nd edition
+
+## 주별 계획
+
+*   **1주차:** 주제 및 수업핵심내용 : Course introduction and coding preparation
+*   **2주차:** 주제 및 수업핵심내용 : Getting started with python
+*   **3주차:** 주제 및 수업핵심내용 : Introduction to python (1)
+*   **4주차:** 주제 및 수업핵심내용 : Introduction to python (2)
+*   **5주차:** 주제 및 수업핵심내용 : Numerical programs
+*   **6주차:** 주제 및 수업핵심내용 : Functions and abstraction (1)
+*   **7주차:** 주제 및 수업핵심내용 : Functions and abstraction (2)
+*   **8주차:** 주제 및 수업핵심내용 : Midterm Exam
+*   **9주차:** 주제 및 수업핵심내용 : Structure types and others (1)
+*   **10주차:** 주제 및 수업핵심내용 : Structure types and others (2)
+*   **11주차:** 주제 및 수업핵심내용 : Testing and debugging
+*   **12주차:** 주제 및 수업핵심내용 : Exceptions and Assertions, Class and OOP(1)
+*   **13주차:** 주제 및 수업핵심내용 : Class and OOP(2)
+*   **14주차:** 주제 및 수업핵심내용 : Class and OOP(3)
+*   **15주차:** 주제 및 수업핵심내용 : Final Exam
+
+## 강의평
+
+24년 1학기 수강자: 손코딩, 의미없는 과제표지 제외하면 잘 가르쳐 주십니다.
+
+24년 1학기 수강자: 시험 난이도 보통~약간어려움, 족보랑 똑같이 냄, 수업은 그럭저럭 들을 만 했어요, 교수님 귀여우심
+
+24년 1학기 수강자: 피피티가 모두 영어인게 아쉽긴 하지만 영어 자신 있으면 크게 문제 안돼요 손코딩이어서 시험때 신경 쓰셔야됩니다
