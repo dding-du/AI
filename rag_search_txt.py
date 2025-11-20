@@ -135,8 +135,7 @@ def hybrid_search(query, collection, k=10):
 # ============================================
 def run_rag(query):
     if not os.path.exists(CHROMA_DB_PATH):
-        print(" DB가 없습니다.")
-        return
+        return "DB가 없습니다. 먼저 /build API를 실행하세요."
 
     client = PersistentClient(path=CHROMA_DB_PATH)
     collection = client.get_collection(COLLECTION_NAME)
@@ -145,40 +144,30 @@ def run_rag(query):
     top_docs = hybrid_search(query, collection, k=7)
     
     if not top_docs:
-        print(" 관련 문서를 찾지 못했습니다.")
-        return
+        return "관련 문서를 찾지 못했습니다."
 
-    print("\n---  검색된 문서 (Top 3) ---")
-    for i, doc in enumerate(top_docs[:3]):
-        print(f"[{i+1}] {doc.splitlines()[0]}...") # 첫 줄만 출력
-
-    # 2. Gemini 답변 생성
+    # --- Gemini 답변 생성 ---
     context = "\n\n".join(top_docs)
+    
     prompt = f"""
     당신은 수강신청 도우미입니다. 
     [관련 문서]를 보고 사용자의 질문에 정확하게 답변하세요.
-    
+
     [관련 문서]
     {context}
-    
+
     [질문]
     {query}
-    
+
     [답변 지침]
     1. 교수님 성함, 과목명 등 고유명사는 문서에 있는 그대로 정확히 말하세요.
     2. 문서에 없는 내용은 "정보가 없습니다"라고 하세요.
     3. 출처가 되는 강의명을 함께 언급해주세요.
     """
-    
-    print("\n---  Gemini 응답 생성 중 ---")
-    model = genai.GenerativeModel(GENERATION_MODEL)
-    resp = model.generate_content(prompt)
-    
-    print("\n===  최종 답변 ===\n")
-    print(resp.text)
 
-if __name__ == "__main__":
-    while True:
-        q = input("\n질문 입력 (종료: q): ").strip()
-        if q.lower() == 'q': break
-        if q: run_rag(q)
+    try:
+        model = genai.GenerativeModel(GENERATION_MODEL)
+        resp = model.generate_content(prompt)
+        return resp.text   
+    except Exception as e:
+        return f"Gemini API 오류: {e}"
