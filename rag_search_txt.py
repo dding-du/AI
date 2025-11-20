@@ -48,7 +48,7 @@ def hybrid_search(query, collection, k=10):
     """
     ChromaDB(벡터)와 BM25(키워드)를 결합하여 최고의 문서를 찾습니다.
     """
-    print("\n--- 🔍 하이브리드 검색 시작 (Vector + BM25) ---")
+    print("\n---  하이브리드 검색 시작 (Vector + BM25) ---")
     
     # 1. DB에 있는 모든 문서 가져오기 (BM25 인덱싱용)
     # (문서 양이 수만 개가 아니면 매번 로드해도 빠릅니다)
@@ -57,7 +57,7 @@ def hybrid_search(query, collection, k=10):
     all_ids = all_docs_data['ids']
     
     if not all_docs:
-        print("❌ DB가 비어있습니다.")
+        print(" DB가 비어있습니다.")
         return []
 
     # -------------------------------------------------------
@@ -135,7 +135,7 @@ def hybrid_search(query, collection, k=10):
 # ============================================
 def run_rag(query):
     if not os.path.exists(CHROMA_DB_PATH):
-        print("❌ DB가 없습니다.")
+        print(" DB가 없습니다.")
         return
 
     client = PersistentClient(path=CHROMA_DB_PATH)
@@ -145,10 +145,10 @@ def run_rag(query):
     top_docs = hybrid_search(query, collection, k=7)
     
     if not top_docs:
-        print("❌ 관련 문서를 찾지 못했습니다.")
+        print(" 관련 문서를 찾지 못했습니다.")
         return
 
-    print("\n--- 🔍 검색된 문서 (Top 3) ---")
+    print("\n---  검색된 문서 (Top 3) ---")
     for i, doc in enumerate(top_docs[:3]):
         print(f"[{i+1}] {doc.splitlines()[0]}...") # 첫 줄만 출력
 
@@ -170,11 +170,11 @@ def run_rag(query):
     3. 출처가 되는 강의명을 함께 언급해주세요.
     """
     
-    print("\n--- 🤖 Gemini 응답 생성 중 ---")
+    print("\n---  Gemini 응답 생성 중 ---")
     model = genai.GenerativeModel(GENERATION_MODEL)
     resp = model.generate_content(prompt)
     
-    print("\n=== 📘 최종 답변 ===\n")
+    print("\n===  최종 답변 ===\n")
     print(resp.text)
 
 if __name__ == "__main__":

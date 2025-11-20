@@ -17,7 +17,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TXT_DIR = os.path.join(BASE_DIR, "new2_texts")
+TXT_DIR = os.path.join(BASE_DIR, "texts")
 CHROMA_DB_PATH = os.path.join(BASE_DIR, "chroma_db")
 COLLECTION_NAME = "txt_collection"
 
@@ -75,13 +75,13 @@ def load_and_chunk_files(txt_files):
             with open(path, "r", encoding="utf-8") as f:
                 raw_text = f.read()
 
-            # 🔥 핵심: 파일에서 중요 정보 미리 뽑기
+            #  핵심: 파일에서 중요 정보 미리 뽑기
             info = extract_core_info(raw_text)
             
             # 청크 생성
             chunks = splitter.split_text(raw_text)
 
-            # 🔥 핵심: 모든 청크에 정보 주입 (헤더 업그레이드)
+            #  핵심: 모든 청크에 정보 주입 (헤더 업그레이드)
             for chunk in chunks:
                 # 예: [강의명: 통계적데이터분석 | 교수: 오민식 | 학년: 3학년]
                 header_tag = f"[강의명: {file_name} | 교수: {info['professor']} | 학년: {info['grade']}]"
@@ -96,10 +96,10 @@ def load_and_chunk_files(txt_files):
                     "grade": info['grade']
                 })
 
-            print(f"✅ {file_name} -> 교수: {info['professor']}")
+            print(f" {file_name} -> 교수: {info['professor']}")
 
         except Exception as e:
-            print(f"❌ 파일 오류 {path}: {e}")
+            print(f" 파일 오류 {path}: {e}")
 
     return all_chunks, all_metadatas
 
@@ -127,10 +127,10 @@ def get_embeddings_for_chunks(chunks):
             print(f"  → {min(i + batch_size, total)}/{total} 처리 완료", end="\r")
             time.sleep(1)  
         except Exception as e:
-            print(f"\n❌ 배치 오류: {e}")
+            print(f"\n 배치 오류: {e}")
             continue
 
-    print("\n✅ 임베딩 생성 완료")
+    print("\n 임베딩 생성 완료")
     return embeddings
 
 # ===============================================
@@ -139,7 +139,7 @@ def get_embeddings_for_chunks(chunks):
 def build_rag_database():
     if not os.path.exists(TXT_DIR):
         os.makedirs(TXT_DIR)
-        print(f"📁 '{TXT_DIR}' 폴더가 없어서 생성했습니다.")
+        print(f" '{TXT_DIR}' 폴더가 없어서 생성했습니다.")
         return
 
     txt_files = [
@@ -147,7 +147,7 @@ def build_rag_database():
     ]
 
     if not txt_files:
-        print(f"❌ '{TXT_DIR}' 폴더에 파일이 없습니다.")
+        print(f" '{TXT_DIR}' 폴더에 파일이 없습니다.")
         return
 
     # 1. 로드 및 정보 주입
@@ -157,7 +157,7 @@ def build_rag_database():
     embeddings = get_embeddings_for_chunks(chunks)
 
     if len(embeddings) != len(chunks):
-        print("❌ 임베딩 개수 오류")
+        print(" 임베딩 개수 오류")
         return
 
     # 3. 저장
@@ -179,10 +179,10 @@ def build_rag_database():
             metadatas=metadatas,
             ids=ids,
         )
-        print(f"✅ 저장 완료 (총 {collection.count()}개)")
+        print(f" 저장 완료 (총 {collection.count()}개)")
 
     except Exception as e:
-        print(f"❌ DB 저장 오류: {e}")
+        print(f" DB 저장 오류: {e}")
 
 if __name__ == "__main__":
     build_rag_database()
